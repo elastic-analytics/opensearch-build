@@ -138,7 +138,7 @@ fi
 eval $NVM_CMD
 
 echo "Building node modules for core with $PLATFORM-$DISTRIBUTION-$ARCHITECTURE"
-yarn osd bootstrap --allow-root
+yarn osd bootstrap
 
 echo "Building artifact"
 
